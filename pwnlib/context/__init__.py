@@ -23,9 +23,9 @@ import tempfile
 import threading
 import time
 
-import socks
 
 from pwnlib.config import register_config
+from pwnlib.context import socks
 from pwnlib.device import Device
 from pwnlib.timeout import Timeout
 
